@@ -1,0 +1,114 @@
+body{
+  background-image: linear-gradient(to bottom, #5ab9ea, purple);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 0px 0px 3px white;
+}
+
+h5, p{
+  text-align: center; 
+  color: white;
+  text-shadow: 0px 0px 3px white;
+}
+
+h3, h4, li{
+  text-align: left;
+  color: white;
+  text-shadow: 0px 0px 3px white;
+}
+
+ol{
+  line-height: 135%;
+}
+
+
+table, td{
+  text-align: center; 
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  color: white;
+  padding: 20px;
+  text-shadow: 0px 0px 3px white;
+}
+
+.columnHeader{
+  text-align: center;
+  border: 1px solid;
+  color: white;
+  padding: 20px;
+}
+
+span::after{
+  content: "\a";
+  white-space: pre;
+}
+
+img{
+  width: 475px;
+  height: 350px;
+}
+
+.column{
+  width: auto;
+  padding: 6px;
+  image-rendering: crisp-edges;
+}
+
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 220px;
+}
+
+video {
+  display: block;
+  margin: auto;
+  width: 720px;
+  height: 450px;
+}
+
+.nav {
+  background-color: #5ab9ea;
+  text-align: center;
+}
+
+.nav li{
+  display:inline-block;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+}
+
+.nav a:hover{
+  background-image: linear-gradient(to bottom, #c1c8e4, #8860d0);
+}
+
+div{
+  width: 99%;
+  padding: 10px;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #c1c8e4, #8860d0);
+  border-radius: 25px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
