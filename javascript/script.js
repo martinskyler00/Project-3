@@ -2,7 +2,7 @@ function initMap(){
   const coffeeShop = { lat: 41.90324, lng: -87.66789};
 
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 15,
+    zoom: 16,
     center: coffeeShop,
   });
 
@@ -10,7 +10,7 @@ function initMap(){
   const marker = new google.maps.Marker({
     position: coffeeShop,
     map: map,
-    label: "Intelligentsia Coffee Wicker Park \n \n",
+    label: "Intelligentsia Coffee Wicker Park",
     animation: google.maps.Animation.DROP,
   });
 
