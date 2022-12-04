@@ -123,3 +123,24 @@ video {
   margin-bottom: 25px;
   padding: 0px;
 }
+
+@media screen and (min-width: 1000px){
+  #media{
+    width: 10%;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+#media table{
+  text-align: center;
+  table-layout: fixed;
+  color: white;
+  border-collapse: collapse;
+}
+
+#media h1{
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
